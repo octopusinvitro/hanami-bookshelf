@@ -35,10 +35,6 @@ describe Web::Views::Books::Index do
     end
   end
 
-  def books_template_path
-    'apps/web/templates/books/index.html.erb'
-  end
-
   def placeholder
     '<p class="placeholder">There are no books yet.</p>'
   end

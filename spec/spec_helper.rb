@@ -8,3 +8,7 @@ require 'minitest/autorun'
 require 'pry'
 
 Hanami.boot
+
+def books_template_path
+  'apps/web/templates/books/index.html.erb'
+end
