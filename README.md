@@ -35,8 +35,16 @@ For browser reload, the shotgun gem is used. From Hanami's documentation:
 ## To run the tests
 
 ```bash
+bundle exec hanami db prepare
 HANAMI_ENV=test bundle exec hanami db prepare
 bundle exec rake
 ```
 
 This will run both minitest and rubocop.
+
+
+## To run the console
+
+```bash
+bundle exec hanami console
+```
