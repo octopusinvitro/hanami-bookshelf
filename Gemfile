@@ -3,15 +3,13 @@
 source 'https://rubygems.org'
 ruby '2.4.1'
 
-gem 'rake'
 gem 'hanami',       '~> 1.0'
 gem 'hanami-model', '~> 1.0'
+gem 'rake'
 
 gem 'sqlite3'
 
 group :development do
-  # Code reloading
-  # See: http://hanamirb.org/guides/projects/code-reloading
   gem 'shotgun'
 end
 
@@ -20,8 +18,9 @@ group :test, :development do
 end
 
 group :test do
-  gem 'minitest'
   gem 'capybara'
+  gem 'minitest'
+  gem 'rubocop'
 end
 
 group :production do

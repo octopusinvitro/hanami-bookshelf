@@ -1,0 +1,11 @@
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.4.1
+
+Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+    - 'apps/web/application.rb'
