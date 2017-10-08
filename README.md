@@ -9,6 +9,7 @@ hanami new PROJECT_NAME
 ```
 
 This will create a folder with the name `PROJECT_NAME`, and use sqlite3 by default.
+The routes where configured according to <http://hanamirb.org/guides/routing/overview/>
 
 
 ## To initialize the app
@@ -34,6 +35,7 @@ For browser reload, the shotgun gem is used. From Hanami's documentation:
 ## To run the tests
 
 ```bash
+HANAMI_ENV=test bundle exec hanami db prepare
 bundle exec rake
 ```
 
