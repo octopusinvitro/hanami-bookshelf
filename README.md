@@ -48,3 +48,10 @@ This will run both minitest and rubocop.
 ```bash
 bundle exec hanami console
 ```
+
+
+## To see the routes
+
+```bash
+bundle exec hanami routes
+```

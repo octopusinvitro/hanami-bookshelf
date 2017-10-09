@@ -11,7 +11,7 @@
   </div>
 <% end %>
 
-<form action="/books" method="POST" accept-charset="utf-8" id="book-form">
+<form action="<%= routes.books_path %>" method="POST" accept-charset="utf-8" id="book-form">
   <div class="input">
     <label for="book-title">Title</label>
     <input type="text" name="book[title]" id="book-title" value="">
