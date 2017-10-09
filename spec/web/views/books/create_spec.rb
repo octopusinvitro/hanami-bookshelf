@@ -5,7 +5,7 @@ require_relative '../../../../apps/web/views/books/create'
 
 describe Web::Views::Books::Create do
   let(:exposures) { Hash[foo: 'bar'] }
-  let(:template)  { Hanami::View::Template.new(books_template_path) }
+  let(:template)  { Hanami::View::Template.new(books_index_template_path) }
   let(:view)      { Web::Views::Books::Create.new(template, exposures) }
   let(:rendered)  { view.render }
 

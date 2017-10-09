@@ -5,7 +5,7 @@ require_relative '../../../../apps/web/views/books/index'
 
 describe Web::Views::Books::Index do
   let(:exposures) { Hash[books: []] }
-  let(:template) { Hanami::View::Template.new(books_template_path) }
+  let(:template) { Hanami::View::Template.new(books_index_template_path) }
   let(:view) { Web::Views::Books::Index.new(template, exposures) }
   let(:rendered) { view.render }
 
