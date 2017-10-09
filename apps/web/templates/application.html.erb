@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Bookshelf</title>
-    <%= favicon %>
-  </head>
-  <body>
-    <h1>Bookshelf</h1>
-    <%= yield %>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Bookshelf</title>
+        <meta name="description" content="Hanami tutorial">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <%= favicon %>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/normalize.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div class="wrapper">
+          <h1>Bookshelf</h1>
+          <%= yield %>
+        </div>
+    </body>
 </html>
