@@ -5,5 +5,6 @@ ENV['HANAMI_ENV'] ||= 'test'
 
 require_relative '../config/environment'
 require 'minitest/autorun'
+require 'pry'
 
 Hanami.boot
