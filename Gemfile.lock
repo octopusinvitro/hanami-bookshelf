@@ -4,13 +4,13 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     ast (2.3.0)
-    capybara (2.15.4)
+    capybara (3.3.1)
       addressable
       mini_mime (>= 0.1.3)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      xpath (~> 2.0)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      xpath (~> 3.1)
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
     dotenv (2.5.0)
@@ -102,7 +102,7 @@ GEM
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     method_source (0.9.0)
-    mini_mime (0.1.4)
+    mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     nokogiri (1.8.4)
@@ -114,9 +114,9 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    public_suffix (3.0.0)
+    public_suffix (3.0.2)
     rack (2.0.5)
-    rack-test (0.7.0)
+    rack-test (1.0.0)
       rack (>= 1.0, < 3)
     rainbow (2.2.2)
       rake
@@ -160,8 +160,8 @@ GEM
     unicode-display_width (1.3.0)
     url_mount (0.2.1)
       rack
-    xpath (2.1.0)
-      nokogiri (~> 1.3)
+    xpath (3.1.0)
+      nokogiri (~> 1.8)
 
 PLATFORMS
   ruby
