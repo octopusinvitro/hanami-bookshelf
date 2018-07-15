@@ -1,4 +1,4 @@
-.ruby-version
 /db/*.sqlite
 # /public/assets*
 /tmp
+coverage
