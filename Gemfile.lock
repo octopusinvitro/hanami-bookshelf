@@ -5,7 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
     bigdecimal (1.4.4)
-    capybara (3.37.0)
+    capybara (3.37.1)
       addressable
       matrix
       mini_mime (>= 0.1.3)
