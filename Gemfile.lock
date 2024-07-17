@@ -140,8 +140,8 @@ GEM
     rainbow (3.1.1)
     rake (13.2.1)
     regexp_parser (2.9.2)
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.2)
+      strscan
     rom (3.3.3)
       concurrent-ruby (~> 1.0)
       dry-core (~> 0.3)
